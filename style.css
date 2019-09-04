@@ -19,16 +19,7 @@ body {
   clear: both;
 }
 
-@media (min-width:600px) {
-  img[data-src-600px] {
-      content: attr(data-src-600px, url);
-  }
-}
-@media (max-width:980px) {
-  img[data-src-980px] {
-      content: attr(data-src-980px, url);
-  }
-}
+
 
 h1,
 h2,
@@ -226,5 +217,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
 
 
